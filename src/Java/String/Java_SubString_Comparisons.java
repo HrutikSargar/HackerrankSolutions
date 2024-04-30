@@ -67,7 +67,6 @@ public class Java_SubString_Comparisons {
         return smallest + "\n" + largest;
     }
     public  static  String[]  sort(String [] data){
-
         for (int a=0;a< data.length;a++){
             for (int b=1;b<data.length-a;b++){
                 if (data[b].compareTo(data[b-1]) <0){
